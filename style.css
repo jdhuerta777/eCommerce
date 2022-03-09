@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html {
+    margin: 0;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+}
+
+.navbar {
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+
+.header-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+.header-li {
+    float: left;
+}
+  
+.header-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 11px 13px;
+    text-decoration: none;
+}  
+
+.collection-promo {
+    display: flex;
+}
+
+.collection-promoText {
+    width: 30%;
+    padding: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    text-shadow: gray 1px 1px;
+}
+
+.collection-promoText h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 95px;
+    text-shadow: gray 2px 2px;
+}
+
+.collection-promoText ul {
+    list-style-type: none;
+}
+
+.collection-promoText a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.collection-promoSlide {
+    width:70%;
+}
+
+.todaysHot {
+    padding: 20px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: gray 1px 1px;
+}
+
+.todaysHot h1 {
+    font-size: 40px;
+}
+
+.th-container {
+    display: flex;
+}
+
+.th-items {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.bestSellers {
+    padding: 20px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: gray 1px 1px;
+}
+
+.bestSellers h1 {
+    font-size: 40px;
+}
+
+.bs-container {
+    display: flex;
+}
+
+.bs-items {
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.designersPick {
+    padding: 20px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: gray 1px 1px;
+}
+
+.designersPick {
+    font-size: 40px;
+}
+
+.dp-container {
+    display: flex;
+}
+
+.dp-items {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.shop_collection {
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.shop_collection2 {
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 55px;
+}
+
+.fContainer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    float: left;
+    padding: 55px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+}
+
+.fContainer ul {
+    list-style-type: none;
+}
+
+.fContainer a {
+    text-decoration: none;
+}
+
+#column2 {
+    padding-left: 55px;
+}
+
+#column3 {
+    padding-left: 55px;
+}
+
+#column4 {
+    padding-left: 55px;
+}
+
+#column5 {
+    padding-left: 55px;
+}
+
+#column6 {
+    padding-left: 55px;
+}
